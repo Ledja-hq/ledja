@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# dependencies
+node_modules
+.pnpm-store
+
+# turbo
+.turbo
+
+# builds
+dist
+.next
+out
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode
+.idea
+*.swp
+EOF
